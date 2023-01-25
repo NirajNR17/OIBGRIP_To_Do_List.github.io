@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="Task To Do">
+            <input type="submit" id="new-task-submit" value="Add Task">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Pending Tasks</h2>
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                        <button class="done">Done</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="task-list-done">
+            <h2>Completed Tasks</h2>
+            <div id="done_tasks">
+                <!-- <div class="done_task">
+                    <div class="done_content">
+                        <input type="text" class="text" readonly>
+                    </div>
+                     <div class="done_actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                        <button class="done">Done</button>
+                    </div> 
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <script src="ToDoList.js"></script>
+</body>
+</html>
